@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+/*header*/
+header{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(./assents/background01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* pt 1 do header*/
+#he1{
+    color: white;
+    padding-top: 0.5rem;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{  	
+    letter-spacing: 2px ;
+    display: flex;
+    align-items: center;
+
+}
+#login{
+    padding-right: 1rem;
+    position: absolute;
+    right: 0;
+}
+#he1 img{
+    margin-right: 0.5rem;
+}
+#link01{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#link01:hover{
+    color: rgb(184, 184, 183);
+    transition: 0.3s;
+}
+#link02{
+    margin: 0.5rem;
+    text-decoration: none;
+    border:1px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#link02:hover{
+    background-color:  rgb(184, 184, 183);
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+
+}
+/* pt 2 do header*/
+#he2{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#he2 h1{
+    color: white;
+    font-size: 3rem ;
+    margin-bottom: 2rem;
+}
+#he2 div{
+    width: 25rem;
+    height: 2.5rem;
+    border: solid 1px ;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+#mapimg{
+    float: left;
+    width: 5%;
+    height: 50%;
+    margin-left: 0.3rem;
+}
+#endereço{
+    border: none;
+    float: left;
+    width: 85%;
+    height: 100%;
+}
+#endereço:focus{
+    outline: 0;
+}
+#seta{
+    width: 10%;
+    height: 90%;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(236, 3, 3);
+    position: absolute;
+    right: 0;
+    margin-right: 0.1rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seta img{
+    width: 60%;
+    height: 80%;
+}
+#seta:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+#endr_slv{
+    color: white;
+}
+#endr_slv:hover{
+    color: rgb(184, 184, 183);
+    transition: 0.3s;
+    text-decoration: none;
+}
+/*main*/
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sect01{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+}
+.itens{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.itensimg {
+    width: 10rem;
+    height: 10rem;
+
+}
+.itens h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.subtexto{
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+.itens a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(236, 3, 3);
+    display: flex;
+    align-items: center;
+}
+.itens a img{
+    width: 10%;
+    padding-left: 0.3rem;
+}
+.itens a:hover{
+    color: brown;
+    transition: 0.3s;
+}
+/*section2*/
+#sect02{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    gap: 1rem;
+}
+#sect02 img{
+    margin-bottom: -1.5rem;
+    z-index: 10;
+}
+.div-section{
+    width: 40%;
+}
+.img-section{
+    width: 60%;
+}
+.h3-section{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.button-section{  
+    margin-top: 1rem ;
+    text-decoration: none;
+    background-color: rgb(236, 3, 3);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+}
+.button-section:hover{
+    color: brown;
+    transition: 0.3s;
+}
+/*section3*/
+#box{
+    background-color: rgb(255, 219, 219);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8rem;
+}
+#sect03{
+    padding-top: 5rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+/*footer*/
+footer{
+    background-color: rgb(43, 43, 43);
+    color: rgb(219, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ft01{
+    padding-top: 2rem ;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.ft02{
+    margin-top: 2rem ;
+    padding-left: 4rem ;
+    width: 70%;
+    display: flex;
+    gap: 10rem;
+}
+
+.lista p{
+    font-weight: bold;
+}
+.lista ul{
+    list-style: none;
+    text-align: left;
+    padding: 1rem 0;
+}
+.lista ul li a{
+    text-decoration: none;
+    color:rgb(219, 218, 218);
+}
+.lista ul li:hover{
+    text-decoration: underline;
+
+}
+.ft03{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
